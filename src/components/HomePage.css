@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    height: 100vh;
+    width: 100vw;
+}
+.Homepage{
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+    border: 2px solid red;
+
+}
+.Navbar_container{
+    height: 10%;
+    display: flex;
+    width: 100%;
+    flex: auto;
+    podition:fixed;
+    z-index: 10;
+    flex-direction: row;
+    
+}
+.Navbar{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border:2px solid green;
+    background-color: #2874f0;
+    
+}
+.navbar_contant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0 auto;
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid rebeccapurple; */
+
+}
+.nav{
+    flex-basis:10%;
+    font-weight: 600;
+    font-size: 19px;
+    /* border: 2px solid red; */
+}
+.logo{
+    display: -webkit-flex;
+}
+.search_box{
+    flex-grow: 3;
+}
+.search_box input{
+    height: 36px;
+    width: 100%;
+    padding: 0 16px;
+    font-size: 14px;
+}
+.loginbtn{
+    display: flex;
+    margin-left: 5px;
+}
+.loginbtn button{
+    height: 36px;
+    width: 100%;
+    padding: 0 16px;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    /* color: #fff; */
+    /* font-family: Roboto,Arial,sans-serif; */
+    
+}
+.seller_Account,.moreInfo,.Cart{
+    height: 36px;
+    width: 100%;
+    color: aliceblue;
+    margin-left: 5px;
+    padding: 0 16px;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+.Cart{
+    display:flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.moreInfo,.seller_Account{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* main header container */
+.header{
+    height: 15%;
+    width:100%;
+    border: 2px solid black;
+}
+.latest_collection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+/* letest offers slider */
+.slider{
+    height: 39%;
+    width:100%;
+    /* border:2px solid rgb(61, 14, 14) */
+
+}
+/* .slider img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(128, 0, 43);
+}
+.img{
+    border:2px solid rgb(83, 201, 5);
+} */
+.slide{
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
+}
+/* all product collection */
+.product_collection{
+height: auto;
+width: 100%;
+border: 2px solid royalblue;
+
+}
+.product_category{
+    height: auto;
+    width: 100%;
+    border: 2px solid rgb(0, 138, 0);
+}
+.category{
+    display: flex;
+    flex-direction:row;
+    height: 40%;
+    width: 100%;
+    border: 2px solid green;
+    /* background-color: gray; */
+    flex-wrap: wrap;
+}
+.Mobiles{
+    background-color: green;
+}
+.Fashion{
+    /* background-color: rebeccapurple; */
+}
+.Beauty{
+    background-color: rgb(51, 99, 153);
+
+}
+.Electronics{
+    background-color: rebeccapurple;
+    
+}
+.children{
+    background-color: rebeccapurple;
+
+}
+.male{
+    background: red;
+}
+.female{
+    background-color: aqua;
+}
+.healthcare{
+    background-color: hotpink;
+}

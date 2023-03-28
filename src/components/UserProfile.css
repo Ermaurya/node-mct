@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 600px){
+.profilepage{
+    height: 100vh;
+    width: 100vw;
+
+}
+.profile_contant{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+
+}
+.fa-solid,.fa-regular{
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 3px;
+}
+.U{
+    height: 8%;
+    width: 100%;
+    margin-top: 10px;
+    /* border: 2px solid green; */
+}
+.user_details{
+    /* border: 2px solid blue; */
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.fa-chevron-right{
+    display: flex;
+    /* justify-content: end; */
+    margin-left: auto;
+}
+.fa-solid{
+    padding: 4px;
+}
+.Notification{
+    height: 5vh;
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+text-align: center;
+padding: 10px;
+margin-top: 10px;
+
+}
+.Notification .fa-bell{
+    /* width: 10px; */
+    font-size: 24px;
+}
+.profile_logo{
+ height:10%;
+ width: 100%;
+ /* border: 2px solid rgb(128, 0, 53); */
+ display: flex;
+ /* justify-content: space-evenly; */
+}
+.profile_img{
+    height: 100%;
+    width:100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+.profile_img .fa-user{
+    height:80px;
+    width:80px;
+    border:2px solid gray;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 50px;
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    flex-wrap: wrap;
+    /* flex-flow: 2; */
+    margin-left: 20px;
+}
+span{
+    margin-left: 10px;
+   /* border: 2px solid red; */
+}
+.user_team{
+    /* border:2px solid red; */
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.t_data{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.t_data span{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.fa-chevron-right{
+    display: flex;
+    justify-content: end;
+}
+
+}
